@@ -1,0 +1,83 @@
+/* 多页面的通用样式 */
+
+
+
+/* 临时按钮 */
+.once{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.once a{
+    display: inline-block;
+    width: 110px;
+    height: 105px;
+    line-height: 105px;
+}
+
+.once a:hover{
+    color: #ef4238;
+}
+
+.once .once-cinema{
+    margin-left: 70px;
+}
+
+.once a.select{
+    background-color: #f03d37;
+    color: #fff;
+}
+
+
+
+
+body{
+    color: #333;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.pages{
+    margin: 2em 0;
+    text-align: center;
+}
+
+.pages a{
+    border: 1px solid #d8d8d8;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.pages a:hover{
+    border-color: #ef4238;
+}
+
+.pages a.select{
+    background: #ef4238;
+    color: #fff;
+    border: none;
+}
+
+footer .introduction{
+    height: 150px;
+    background: #47464a;
+    text-align: center;
+    color: #fff;
+}
+
+footer .introduction-a{
+    padding: 0 0 10px 0;
+}
+
+footer .introduction-aa{
+    padding: 20px 0 10px 0;
+}
+
+footer .introducter{
+    margin-right: 9px;
+}

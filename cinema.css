@@ -1,0 +1,109 @@
+
+.main .container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.main .container .choose-area{
+    border: 1px solid #e5e5e5;
+    margin: 40px 0;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 30px;
+}
+
+.main .container .choose-area .choose-item .left{
+    float: left;
+}
+
+.main .container .choose-area .choose-item .right{
+    float: left;
+}
+
+.main .container .choose-area .choose-item{
+    margin: 1em 0;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.main .container .choose-area .choose-item.no-line{
+    border: none;
+}
+
+.main .container .choose-area .choose-item .left{
+    float: left;
+    color: #999;
+}
+
+.main .container .choose-area .choose-item .right{
+    float: left;
+    width: 990px;
+}
+
+.main .container .choose-area .choose-item .right li{
+    float: left;
+    margin: 0 9px;
+    padding: 0 6px;
+}
+
+.main .container .choose-area .choose-item .right a:hover{
+    color: #ef4238;
+}
+
+.main .container .choose-area .choose-item .right .select{
+    background-color: #ef4238;
+    color: #fff;
+    border-radius: 14px;
+}
+
+.main .choose-list .list-head{
+    font-size: 18px;
+    border-left: 4px solid #f03d37;
+    padding-left: 6px;
+    line-height: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main .choose-list .list{
+    display: block;
+    padding: 20px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.main .choose-list .list.no-line{
+    border: none;
+}
+
+.main .choose-list .list .cinema-name{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.main .choose-list .list .cinema-name:hover{
+    color: #f03d37;
+}
+
+.main .choose-list .list .cinema-address{
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+}
+
+.main .choose-list .cinema-tags{
+    font-family: PingFangSC-Regular;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #509fc9;
+}
+
+.main .choose-list .cinema-tags span{
+    display: inline-block;
+    border: 0.7px solid #509fc9;
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 0 8px;
+}
+
